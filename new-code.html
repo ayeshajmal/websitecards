@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="newstyle.css" />
+    <link rel="icon" href="img/birthday-card.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!--Header Starts From Here-->
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar mr-auto">
+      <a class="navbar-brand" href="#">Welcome to Birthdays and Beyond</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >Store<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Newsletter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              ENG
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">RUS</a>
+              <a class="dropdown-item" href="#">AUS</a>
+              <a class="dropdown-item" href="#">CAD</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              USD
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">RUS</a>
+              <a class="dropdown-item" href="#">AUS</a>
+              <a class="dropdown-item" href="#">CAD</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Body Starts From Here-->
+    <div class="container-fluid">
+     
+      <!--Homepage Top Box Start-->
+      <div class="container mt-2" style="position: relative;">
+        <img class="img-responsive centerfloat-img" src="bg5.png" />
+        <div class="row row-cols-2">
+          <div class="col">
+            <a href="#">
+              <div
+                class="card text-center bg-pink-cards text-white"
+                style="width: 500px;"
+              >
+                <img
+                  src="bg2.jpeg"
+                  class="card-img-top img-responsive"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Personalized Cards</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <div
+                class="card mb4 text-center bg-pink-cards text-white"
+                style="width: 500px;"
+              >
+                <img src="bg1.png" class="card-img" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">Celebrity Inspired</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <div
+                class="card text-center bg-pink-cards text-white"
+                style="width: 500px;"
+              >
+                <img src="bg4.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">Personalized Voice Over Cards</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="#">
+              <div
+                class="card text-center bg-pink-cards text-white"
+                style="width: 500px;"
+              >
+                <img src="bg3.jpeg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">Forever Cards</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--Homepage Top Box END-->
+      <!--Card Open Animation-->
+     <div class="container-fluid flipcard-container flipcard-containerbg">
+       <div class="row justify-content-md-center">
+         <div class="col-md-2">
+          <div id="cardflip">
+            <div class="inside"><img class="img-responsive" src="celeb1.png" style="width: 150px;"></div>
+            <div id="card1">
+              <div class="front"><img class="img-responsive" src="PC.png" style="width: 150px;"></div>
+              <div class="back"><img class="img-responsive" src="PC_back.png" style="width: 150px;"></div>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-2">
+          <div id="cardflip">
+            <div class="inside"><img class="img-responsive" src="pc_hover3.png" style="width: 150px;"></div>
+            <div id="card1">
+              <div class="front"><img class="img-responsive" src="celeb.png" style="width: 150px;"></div>
+              <div class="back"><img class="img-responsive" src="PC_back.png" style="width: 150px;"></div>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-2">
+          <div id="cardflip">
+            <div class="inside"><img class="img-responsive" src="f_over1.png" style="width: 150px;"></div>
+            <div id="card1">
+              <div class="front"><img class="img-responsive" src="f_cards.png" style="width: 150px;"></div>
+              <div class="back"><img class="img-responsive" src="PC_back.png" style="width: 150px;"></div>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-2">
+          <div id="cardflip">
+            <div class="inside"><img class="img-responsive" src="v_over1.png" style="width: 150px;"></div>
+            <div id="card1">
+              <div class="front"><img class="img-responsive" src="v_over.png" style="width: 150px;"></div>
+              <div class="back"><img class="img-responsive" src="PC_back.png" style="width: 150px;"></div>
+            </div>
+          </div>
+         </div>
+       </div>
+
+     </div>
+      <!--Products Box Start-->
+      <div class="container-fluid pt-4">
+        <div
+          class="text-center"
+          style="color: white; background-color: #ff69b4;"
+        >
+          <h2>BIRTHDAY CARDS FOR ALL THE FAMILY</h2>
+        </div>
+        <div class="text-center" style="color: brown; padding-bottom: 30px;">
+          <h4>
+            Browse our brilliant range of thoughtful birthday cards for all the
+            special people in your life
+          </h4>
+        </div>
+      </div>
+
+      <div
+        class="container-fluid web-bg pt-4 pb-5"
+        style="background-color: #ffb6c1;"
+      >
+        <div class="row justify-content-md-center myproductrow">
+          <div class="container">
+            <div class="row myproductrow">
+              <div class="col-md-3">
+                <img src="mom.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Mom</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="dad.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Dad</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="sis.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Sister</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="bro.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Brother</h6></a>
+                </div>
+              </div>
+            </div>
+            <div class="row myproductrow">
+              <div class="col-md-3">
+                <img src="gf.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Girlfriend</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="bf.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Boyfriend</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="wife.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Wife</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="husband.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Husband</h6></a>
+                </div>
+              </div>
+            </div>
+            <div class="row myproductrow">
+              <div class="col-md-3">
+                <img src="daughter.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Daughter</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="son.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Son</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="grandma.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Grandma</h6></a>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <img src="grandpa.png" class="img-responsive img-thumbnail" />
+                <div
+                  class="label-info"
+                  style="
+                    text-align: center;
+                    color: white;
+                    background-color: #ff69b4;
+                  "
+                >
+                  <a href="#" style="color: white;"> <h6>Grandpa</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Products Box End-->
+      <!--Footer-->
+      <div class="container-fluid">
+        <div class="row pt-5">
+          <div class="col-sm-2">
+            <div class="list-group">
+              <strong><a href="#" class="list-group-item list-group-item-action border-0 pb-4" style="color: #918c8c;">Your Region</a></strong>
+              <strong><a href="#" class="list-group-item list-group-item-action border-0" style="color: #ff69b4;">UK</a></strong>
+              <strong><a href="#" class="list-group-item list-group-item-action border-0" style="color: #ff69b4;">USA</a></strong>
+              <strong><a href="#" class="list-group-item list-group-item-action border-0" style="color: #ff69b4;">CANADA</a></strong>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="list-group">
+              <strong><a href="#" class="list-group-item list-group-item-action border-0 pb-4" style="color: #918c8c;">Helpful Links</a></strong>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">FAQs</a>
+              <a href="#" class="list-group-item list-group-item-action border-0 xs" style="color: #918c8c;">Sign In</a>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">Create an account</a>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">Pre Pay</a>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">Customer Services</a>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <strong><a href="#" class="list-group-item list-group-item-action border-0 pb-4" style="color: #918c8c;">About Us</a></strong>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">Contact Us</a>
+              <a href="#" class="list-group-item list-group-item-action border-0 xs" style="color: #918c8c;">Feedback</a>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">Cookies</a>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">Terms of Use</a>
+              <a href="#" class="list-group-item list-group-item-action border-0" style="color: #918c8c;">Privacy Notice</a>
+          </div>
+          <div class="col-sm-3">
+            <strong><a href="#" class="list-group-item list-group-item-action border-0 pb-5" style="color: #918c8c;">Payment Methods</a></strong>
+            <div class="row justify-content-center">
+              <div class="col-md-2">
+                <a href="#">
+                <i class="fab fa-cc-visa" style="font-size:40px; color: #0157a2;"></i>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#">
+                <i class="fab fa-cc-mastercard" style="font-size:40px; color: #0a3a82;"></i>
+                </a>
+              </div>
+            </div>   
+            <div class="row">
+              <div class="col-md-2">
+                <a href="#">
+                <i class="fab fa-cc-apple-pay" style="font-size:40px; color: #979797;"></i>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#">
+                <i class="fas fa-credit-card" style="font-size:40px; color: #003A8F;"></i>
+                </a>
+              </div>
+            </div>    
+          </div>
+          <div class="col-sm-3">
+            <strong><a href="#" class="list-group-item list-group-item-action border-0 pb-5" style="color: #918c8c;">Keep in Touch</a></strong>
+            <div class="row">
+              <div class="col">
+                <a href="#">
+                  <i class="fab fa-facebook" style="font-size:40px; color: #3b5998;"></i>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                  <i class="fab fa-google-plus" style="font-size:40px; color: #dd4b39;"></i>
+                </a>
+              </div>
+            </div>   
+            <div class="row">
+              <div class="col">
+                <a href="#">
+                  <i class="fab fa-youtube" style="font-size:40px; color: #e52d27;"></i>
+                </a>
+              </div>
+              <div class="col">
+                <a href="#">
+                <i class="fab fa-instagram" style="font-size:40px; color: #3f729b;"></i>
+                </a>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </div>
+
+</div>
+   
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
